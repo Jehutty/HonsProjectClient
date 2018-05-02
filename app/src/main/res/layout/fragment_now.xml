@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:id="@+id/now_relative_layout">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="486dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="11dp"
+        android:background="#ffffff"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/currentInfoTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"></TextView>
+
+        <ListView
+            android:id="@+id/modulesListView"
+            android:layout_width="match_parent"
+            android:layout_height="283dp"
+            android:layout_margin="20dp"
+            android:divider="#4c100110"
+            android:dividerHeight="1dp"></ListView>
+
+        <Button
+            android:id="@+id/attendButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/attendButton_text"></Button>
+
+    </LinearLayout>
+
+</RelativeLayout>
