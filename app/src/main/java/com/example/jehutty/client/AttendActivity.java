@@ -207,9 +207,10 @@ public class AttendActivity extends AppCompatActivity implements ActivityCompat.
                 params.add(new BasicNameValuePair("date", formmatedDate));
                 params.add(new BasicNameValuePair("index",""+index));
                 params.add(new BasicNameValuePair("coursecode", selectedCourse));
+                params.add(new BasicNameValuePair("secret", rpi3.getStudentSecret()));
                 //RPI3 addresses
 
-
+                //heroku ip "https://attendanceserver-hons.herokuapp.com/api/attend"
                 JSONObject json = jsonParser.makeHttpRequest(rpi3.getAPI_IP(), "POST", params);
 
 

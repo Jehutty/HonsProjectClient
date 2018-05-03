@@ -62,7 +62,7 @@ public class Courses {
         CS1_MODULES.add( new Module(
                 "CM1015",
                 "Software Design & Development",
-                "9",
+                "00",
                 "12",
                 new ArrayList<String>(Arrays.asList("Thursday")),
                 new ArrayList<String>(Arrays.asList("Apr-19","Apr-26", "May-03", "May-10")),

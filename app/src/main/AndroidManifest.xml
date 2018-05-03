@@ -31,7 +31,6 @@
             android:label="@string/title_activity_tabbed"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".AttendActivity" />
-        <activity android:name=".RPI_BT_RangeFailureActivity" />
         <activity android:name=".RangeFailureActivity" />
         <activity android:name=".SuccessActivity" />
         <activity android:name=".FailureActivity"></activity>
